@@ -37,7 +37,7 @@ three:
 	
 
 clean:
-	@echo $(TIMESTAMP)
+	echo $(TIMESTAMP)
 	@echo "Making old/$(TIMESTAMP) directory"
 	$(shell mkdir -p old/$(TIMESTAMP) )
 	@echo "Copying the source to the old directory"

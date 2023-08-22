@@ -17,13 +17,13 @@ RM=rm
 TIMESTAMP=$(shell date +"%Y_%m_%d_T-%H_%M" )
 
 # When a Makefile is executed, by default it tries the option "all"
-all: clean first second three
+all: clean first second 
 
 first:
 	@echo Compiling $(sourcedir)$(one).cxx
 	@$(CPP) -o m_$(one).exe $(sourcedir)$(one).cxx
-	@echo Successfully compiled $(sourcedir)$(one).cxx
-	@echo The executable is $(one).exe
+	@echo Successfully compiled $(sourcedir)$(first_part)
+	@echo The executable is $(first_part).exe
 
 second: 
 	@echo Compiling $(sourcedir)$(two) to partially compiled object
