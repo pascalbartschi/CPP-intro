@@ -5,7 +5,6 @@ The main focus of this section was to implement algorithms for simple data proce
 ### Include error
 
 ```c++
-User
 g++ -c main.cxx -o main.o
 main.cxx:5:1: error: expected initializer before ‘using’
  using namespace std;
