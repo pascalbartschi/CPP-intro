@@ -4,4 +4,5 @@ This repository holds my first experience coding in C++. I learnt the basics of 
 
 ## Contents:
 
-* [basics](01-basics/): compiling, data types and simple algorithms
+* [basics](01-basics/): compiling, data types and simple algorithms
+* [data-processing](02-processing/): linear search, 
