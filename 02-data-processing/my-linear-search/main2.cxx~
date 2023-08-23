@@ -1,0 +1,10 @@
+// main.cxx
+#include <iostream>
+#include <stdio.h>
+#include "linear_searchers.h"
+using namespace std;
+int main(int argc, char *argv[]){
+  int index = find_element(argv[1], argv[2]);
+  cout << "Index :" << index << endl;
+return 0;
+}

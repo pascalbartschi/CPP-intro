@@ -2,7 +2,7 @@
 CPP = g++
 
 # variables
-main = main
+main = main2
 component = linear_searchers
 # all
 all: clear component main
