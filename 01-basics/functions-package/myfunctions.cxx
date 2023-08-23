@@ -12,3 +12,7 @@ return first+second;
 int substract(int first, int second){
 return first-second;
 }
+bool half(float inputf){
+return inputf > 0.5;
+}
+

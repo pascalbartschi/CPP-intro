@@ -5,3 +5,4 @@ using namespace std;
 void sayhelloto(string input);
 int add(int first, int second);
 int substract(int first, int second);
+bool half(float inputf);
