@@ -1,0 +1,26 @@
+//minmax.cxx
+#include<iostream>
+#include<stdio.h>
+#include<vector>
+
+using namespace std;
+int main(int argc, char *argv[]){
+
+  vector<int> numbers = {1,2,3,54,1,532,14,3,14,31,4,321,10, 5,35,21,5,3215,324,324,321,4,3214,321,43,14,32,14,32,11, 14,32,41,32,432,1,432,14,321,43,24,321,4,3214,32,431,35,12 324321,161,6,17,34121,7,78,53,45,24,-3143,35,432,65,437,321};
+  int min = 99999;
+  int max = -99999;
+  vector<int> target_index;
+
+  for (int value : numbers){
+    if (value > max){
+      max = value;
+    }
+    if (value < min){
+      min = value;
+    }
+  }
+  cout << "max is: " << max << endl;
+  cout << "min is: " << min << endl;
+
+  return 0;
+}
