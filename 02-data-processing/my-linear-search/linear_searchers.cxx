@@ -18,12 +18,39 @@ int random_no(int lower, int upper)
     return rand_no;
 }
   
-int find_element(int array[], int target){
-  int length = sizeof(array) / sizeof(array[0]);
+int find_element(vector<int> vectr, int target){
+  int c = 0;
+  for (int ele : vectr){
+    c++;
+    if (ele == target){
+      return c; 
+ 	} 
+    }
+}
 
-  for (int i = 0; i < length; i++){
-    if (array[i] == target){
-      return i;
+float find_max(vector<float> vectr){
+  float maximum = -999999;
+  for (float ele : vectr){
+    if (ele > maximum){
+      maximum = ele;
+    }
+  }
+  return maximum;
+}
+
+float find_min(vector<float> vectr){
+  float minimum = 999999;
+  for (float ele : vectr){
+    if (ele < minimum){
+      minimum = ele;
     }
   }
 }
+
+    
+
+void checker(int check){
+  cout << check << endl;
+}
+
+	 
